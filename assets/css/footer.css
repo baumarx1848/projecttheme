@@ -1,0 +1,25 @@
+/*
+ * Footer
+ */
+footer {
+  background-color: var(--theme-color-footer);
+  display: flex;
+  color: #ffffff; /*text within the footer color*/
+}
+
+footer .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 0 0rem;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+@media (height: 42px) {
+  footer .footer-content{
+    flex-direction: row;
+    padding: 0rem 0 0rem;
+    gap: 0;
+  }
+}

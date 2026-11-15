@@ -13,7 +13,8 @@
 
   <header id="masthead" class="site-header">
     <div class="site-branding">
-      <?php get_template_part( 'template-parts/components/logo' ); ?>
+      <h1>Welcome to Qikidepia</h1>
+      <h2> The free sister-encyclopedia that anyone can illustrate.<h2>
 
     </div><!-- .site-branding -->
 

@@ -20,8 +20,8 @@
 #site-navigation .main-menu li a:hover,
 #menu-footer li a:hover {
   color: var(--theme-color-primary);
-  transition: color 0.3s ease-in-out;
-}
+  transition: color 1s;
+} 
 
 #menu-footer {
   list-style: none;

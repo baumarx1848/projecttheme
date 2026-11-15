@@ -4,9 +4,9 @@
 header {
    /* background-color: rgb(255, 255, 255); actual header color */
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  position: fixed;
+  position: center;
   width: 100%;
   z-index: 1000;
   top: 0;
@@ -17,23 +17,24 @@ header {
 
 @media (min-width: 767px) {
   header {
-    position: relative;
+    position: center;
   padding: 2rem 3rem;
   }
 }
 
 .site-title {
   margin: 0;
+  
 }
 
 .site-logo {
   display: block;
-  width: min(100%, 180px);
+  width: min(200%, 180px);
   height: auto;
 }
 
 @media (min-width: 767px) {
   .site-logo {
-    width: min(100%, 283px);
+    width: min(200%, 283px);
   }
 }

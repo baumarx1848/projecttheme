@@ -22,6 +22,7 @@ body {
   font-family: var(--theme-font-body);
   font-size: var(--theme-font-size-base);
   line-height: var(--theme-line-height-body);
+  text-align: center;
 
 }
 
@@ -51,7 +52,15 @@ h3
    color: #f0eae0;
    text-align: center;
  }
-h4,
+h4 /* small title text */
+ {
+  font-family: var(--theme-font-heading);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 57.6px;
+   color: #f0eae0;
+   text-align: center;
+ }
 h5,
 h6
 {
@@ -59,6 +68,31 @@ h6
   font-weight: 700;
   line-height: var(--theme-line-height-heading);
 }
-
+h7 /* summary text */
+{
+  font-family: var(--theme-font-heading);
+  font-weight: 70;
+  line-height: var(--theme-line-height-heading);
+  font-size: 10px;
+  color: #C7A370;
+  text-align: center;
+}
 a:visited {color: #dbb989; text-decoration: underline; }
 a:hover {color: #C7A370; text-decoration: none; }
+
+.col-md-6 { /* imprint test element*/
+ width: 289px;
+ display: grid;
+  align-content: center;
+  justify-content: center;
+}
+.project_highlight .container-lg /*name before container to say "just of this section*/
+{
+  width: 560px;
+}
+
+.qiki_putting_up_image .container-lg 
+{
+  width: 311px;
+  align-content: center;
+}

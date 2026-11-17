@@ -21,6 +21,7 @@
 #menu-footer li a:hover {
   color: var(--theme-color-primary);
   transition: color 1s;
+
 } 
 
 #menu-footer {

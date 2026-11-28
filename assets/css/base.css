@@ -36,7 +36,7 @@ h1 /* header size */
 }
 h2 /* sub-header size */
 {
-  font-family: var(--theme-font-heading);
+  font-family: var(--theme-font-body);
   font-weight: 400;
   font-size: 24px;
   line-height: 28.8px;
@@ -68,6 +68,7 @@ h6
   font-weight: 700;
   line-height: var(--theme-line-height-heading);
 }
+
 h7 /* summary text */
 {
   font-family: var(--theme-font-heading);
@@ -218,3 +219,37 @@ width: 20%;
   }
 }
 
+.qiki_putting_up_image .container-lg {
+  margin-top: -260px;
+  max-width: 120%;
+  align-content: center;
+  position: relative; /* allows an item to appear atop of one another, even if it's in front-end below it */
+  z-index: 20;
+}
+
+.gallery-item-1 .ratio { /*chessimg*/
+  height: 250px;
+}
+
+.gallery-item-2 .ratio { /*blobject img*/
+  height: 230px;
+  margin-top: 60px;
+}
+
+.gallery-item-3 .ratio { /*duckimg*/
+  height: 240px;
+  margin-top: -20px;
+}
+
+.gallery-item-4 .ratio {/*sweater img*/
+  height: 250px;
+  margin-top: 20px;
+}
+
+.gallery-item-5 .ratio { /*monalisa img*/
+  height: 232px;
+}
+
+section.text_1col:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+  margin-top: -150px;
+} /* want to see our newest works? */
